@@ -1,0 +1,7 @@
+[user]
+	email = gongshang1990@163.com
+	name = gongshang
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
