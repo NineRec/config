@@ -18,3 +18,9 @@ File -> Import Settings...
 ```bash
 cp git/.gitconfig ~/.gitconfig
 ```
+
+## Visual Studio Code
+
+```bash
+cp -r ./vscode/ ~/Library/Application\ Support/Code/User/settings.json 
+```
