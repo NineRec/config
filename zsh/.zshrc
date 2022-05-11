@@ -1,6 +1,3 @@
-# For Grab
-source $HOME/.profile 
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
@@ -64,7 +61,7 @@ ZSH_THEME="ys"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  osx
+  macos
   zsh-autosuggestions
 )
 
