@@ -1,7 +1,13 @@
-[user]
-	email = gongshang1990@163.com
-	name = gongshang
 [push]
 	default = simple
 [credential]
 	helper = osxkeychain
+[core]
+    editor = vi
+    pager = less -FRX
+
+# move [user] part to seprated config
+[includeIf "hasconfig:remote.*.url:gitlab@mycompany.com:*/**"]
+    path = ~/.config/git/mycompany.gitconfig
+[includeIf "hasconfig:remote.*.url:**/github.com/**"]
+    path = ~/.config/git/github.gitconfig
